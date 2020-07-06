@@ -1,6 +1,6 @@
 def stringCases():
    user_name = input("Enter your user name: ") # ask for users name.
-   comp_name = "bobby"
+   comp_name = "Bobby"
 
     # true if string contains the substring
    if "ob" in user_name:
@@ -10,11 +10,11 @@ def stringCases():
 
     # true if string does not contain the substring
    if "ob" not in user_name:
-       print("Correct not in")
+       print("Correct, the substring is not in user_name")
    else:
-       print("nope not in")
+       print("nope, the substring is in user_name")
 
-    #true if the variable contains a matching string.
+    #true if the variable contains a matching string. Case sensitive.
    if user_name == "Bobby":
        print("Correct user name")
    else:
@@ -24,7 +24,7 @@ def stringCases():
    if user_name.startswith("Bob"):
        print("Correct, it starts with the substring")
    else:
-       print("nope it doesn't start with the substring")
+       print("nope, it doesn't start with the substring")
 
   # true if the user_name ends with the substring
    if user_name.endswith("by"):
@@ -58,7 +58,10 @@ def stringCases():
 
     #All conditional statements must equate to true or false.
     #A conditional statement always follows an IF.
-   # Where the word IF is SELECTION is being used.
+    # Where the word IF is, SELECTION is being used.
+    # In Python whitespace matters!  All code that is inside the
+   # IF statement must be indented using the tab key.
+   # Pay attention to code indentation!
 
 
 
