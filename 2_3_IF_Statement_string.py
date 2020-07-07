@@ -15,7 +15,10 @@ def stringCases():
        print("nope, the substring is in user_name")
 
     #true if the variable contains a matching string. Case sensitive.
-   if user_name == "Bobby":
+
+   if user_name == "admin":
+       print("Welcome back admin")
+   elif user_name == "Bobby":   #elif used to test more than one condition. In this structure only one is True.
        print("Correct user name")
    else:
        print("Access denied")
@@ -57,8 +60,8 @@ def stringCases():
        print("nope, this is not numeric")
 
     #All conditional statements must equate to true or false.
-    #A conditional statement always follows an IF.
-    # Where the word IF is, SELECTION is being used.
+    #A conditional statement always follows an IF or ELIF.
+    # Where the word IF is used, SELECTION is being used.
     # In Python whitespace matters!  All code that is inside the
    # IF statement must be indented using the tab key.
    # Pay attention to code indentation!
