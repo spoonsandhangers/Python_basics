@@ -1,4 +1,8 @@
 def helloWorld():
+    """
+    Examples of ways to outpu information to the console.
+    :return: none
+    """
     print("Hello World")
 
     #Any time you perform division in Python the
@@ -18,6 +22,10 @@ def helloWorld():
     #One line comments use the hash key.
 
 def advancedOutput():
+    """
+    More advanced examples of outputs
+    :return: none
+    """
     my_name = "Eleven"
 
     print("Hello " + my_name)

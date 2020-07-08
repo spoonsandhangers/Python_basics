@@ -1,4 +1,8 @@
 def dataTypeExamples():
+    """
+    Provides examples of data types used in Python
+    :return: none
+    """
     my_string = '"Any mix of letters, numbers 2345 or symbols surrounded by speech marks"'
     my_int = 23
     my_float = 22.4234562
@@ -28,6 +32,10 @@ def dataTypeExamples():
     print("my_string now has an int asigned to it:", my_string)
 
 def dataTypeCasts():
+    """
+    Prvides examples of casting from one data type to another
+    :return: none
+    """
     print("When a user inputs information, it is always assigned as a string")
     print("It is even a string if the user inputs a numerical value")
     print("If you want to use the user input in a calculation you have to first")
@@ -49,6 +57,11 @@ def dataTypeCasts():
     print("bool() will return True for anything other than "" or 0")
 
 def castExceptions():
+    """
+    Shows an example of a try except block and how it protects
+    from a valueError
+    :return: none
+    """
     print("if you try to cast a value to an int or a float")
     print("but it is not a numerical value")
     print("A ValueError exception will be thrown")

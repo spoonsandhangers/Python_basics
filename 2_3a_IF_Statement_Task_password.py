@@ -8,6 +8,14 @@ password3() uses a nested loop.
 """
 
 def password():
+    """
+    Asks the user for a username and password
+    compares these to the stored username and password.
+    Displays a message to inform the user if their username or password
+    are incorrect and whether they have access.
+    Uses a string flag.
+    :return: none
+    """
     username = "morty"
     password = "letmein"
 
@@ -32,6 +40,14 @@ def password():
         print("Access denied")
 
 def password2():
+    """
+     Asks the user for a username and password
+    compares these to the stored username and password.
+    Displays a message to inform the user if their username or password
+    are incorrect and whether they have access
+    uses a Boolean flag
+    :return: none
+    """
     username = "morty"
     password = "letmein"
 
@@ -56,6 +72,14 @@ def password2():
         print("Access denied")
 
 def password3():
+    """
+     Asks the user for a username and password
+    compares these to the stored username and password.
+    Displays a message to inform the user if their username or password
+    are incorrect and whether they have access
+    Uses a nested loop
+    :return: none
+    """
     username = "morty"
     password = "letmein"
 

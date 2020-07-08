@@ -1,4 +1,10 @@
 def personalData():
+    """
+    Asks the user for their name and age.
+    Uses a try except block to cast their age to an int
+    prints out their name ad age.
+    :return:
+    """
     user_name = input("Enter your name: ")
     user_age = input("Enter your age")
 

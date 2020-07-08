@@ -1,4 +1,11 @@
 def chooseMonth():
+    """
+    Asks the useer to input the month as an integer and the current year
+    casts the year to an int and determines whether it is a leap year.
+    Prints out the month in words along with the season, number of days in the month
+    and whether it is a leap year
+    :return: none
+    """
     current_month = input("Enter the current month as a number: ")
     year = int(input("What year is it?"))
 

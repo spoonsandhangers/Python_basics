@@ -1,4 +1,8 @@
 def basic_outs():
+    """
+    Examples of ways to output to the console
+    :return:
+    """
     print("Hello World!") #String output
 
     #Python adds a line break after each print statement.
@@ -27,6 +31,10 @@ def basic_outs():
     print(4*2)  # Prints the answer to 4 multiplied by 2
 
 def out_extension():
+    """
+    More advanced examples of printing to the console.
+    :return:
+    """
     # You can tell Python what to seperate strings with.
     print('','User','Marge','documents','letters',sep='/') #to build a file path
 

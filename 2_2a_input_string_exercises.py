@@ -1,4 +1,10 @@
 def conversation():
+    """
+    Asks the user to input their name and hair colour
+    gives the user a nickname by concatenating the first 3 letters
+    of their name with 'gsy'
+    :return:
+    """
     #store the name that the user inputs in the variable user_name
     user_name = input("What is your name?: ")
 
@@ -13,6 +19,12 @@ def conversation():
     print("Your nickname is", user_name[0:2]+"gsy")
 
 def mixedRainbow():
+    """
+    Asks the user to input the colours of the rainbow one at a time.
+    makes every other one uppercase, changes all the letter e's with a's
+    print them out.
+    :return:
+    """
 
     #Ask a user to input the colours of the rainbow one at a time.
     #change them to lower then upper alternately.

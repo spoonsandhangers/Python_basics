@@ -1,6 +1,11 @@
 import math
 
 def swimmingPool():
+    """
+    Asks the user for length, width and depth of a swimming pool
+    Prints out the perimeter and volume of the pool.
+    :return: none
+    """
     #convert the user input to a float value
     length = float(input("Enter the length of the pool in metres: "))
     width = float(input("Enter the width of the pool in metres: "))
@@ -15,6 +20,11 @@ def swimmingPool():
     print("The volume of the pool is:", round(volume,2),"meters squared")
 
 def roundpool():
+    """
+    This function asks the input to input the diameter of a round pool
+    and calculates and prints out the circumference and area of the pool.
+    :return: none
+    """
     #user input is converted to a float before being assigned to the variable
     dia_pool = float(input("Enter the diameter of the pool: "))
 

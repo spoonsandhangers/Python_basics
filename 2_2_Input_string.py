@@ -1,4 +1,8 @@
 def inputExamples():
+    """
+    Example of user input
+    :return: string user_name
+    """
 
     user_name = input("Enter your name in upper case: ") #Input is always stored as a String.
 
@@ -7,6 +11,10 @@ def inputExamples():
     return user_name
 
 def stringExamples():
+    """
+    Examples of String handling in Python
+    :return: none
+    """
 
     the_name = "ERIC IDLE"
 

@@ -7,6 +7,12 @@ The value error is shown so the user knows what has happened.
 I prefer dog2()
 """
 def dog():
+    """
+    Asks a user for informatino about a dog.
+    Prints out the information in a bulleted list.
+    Uses a try/except block in case of a casting ValueError
+    :return: none
+    """
 
     dog_name = input("Enter the dog's name: ")
     coat_colour = input("Enter the dogs coat colour: ")
@@ -34,6 +40,12 @@ def dog():
     print(dog_name,coat_colour,eye_colour,length_cm,weight_kg,price, sep="\n\t*")
 
 def dog2():
+    """
+    Asks the user for information about a dog.
+    prints out that information out in a bulleted list.
+    Uses a try except block to run the code in case of a casting ValueError
+    :return:
+    """
     dog_name = input("Enter the dog's name: ")
     coat_colour = input("Enter the dogs coat colour: ")
     eye_colour = input("Enter the dogs eye colour: ")

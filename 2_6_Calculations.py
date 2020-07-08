@@ -1,6 +1,10 @@
 import math
 
 def calculateInPython():
+    """
+    Demonstrates basic calculations in Python and prints out the results
+    :return: none
+    """
     print("Data types used for calculations are int and float")
     print("variables do not need to be declared before use")
     print("Add = +")
@@ -54,6 +58,10 @@ def calculateInPython():
 
 
 def usingMathLibrary():
+    """
+    Demonstrates how to import the math library and how to use pi
+    :return: none
+    """
     print("To use PI in your code, you must import the math library")
     print("At the very top of your code on line one insert the following")
     print("Import statement: import math")

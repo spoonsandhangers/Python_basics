@@ -1,4 +1,9 @@
 def album():
+    """
+    Asks the user for information about an album
+    Prints out the information in a bulleted list.
+    :return:
+    """
 
     try:
         title = input("Enter the title of the album:")
