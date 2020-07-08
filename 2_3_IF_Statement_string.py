@@ -1,3 +1,7 @@
+"""
+A collection of string functions that return true or false.
+These can be used as conditions in a selection statement.(IF)
+"""
 def stringCases():
    user_name = input("Enter your user name: ") # ask for users name.
    comp_name = "Bobby"
