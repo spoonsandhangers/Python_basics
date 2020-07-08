@@ -1,2 +1,4 @@
 # Python_basics
-If statement - string, data types, dog in the window challenge, calculations, random and if statements - not string.
+1st term of Python, converted from the Java code book.
+Outputs, Inputs and Strings, IF statements with strings, data types and calculations.
+
